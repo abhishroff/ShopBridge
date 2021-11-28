@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShopBridge</name>
+    </assembly>
+    <members>
+        <member name="M:ShopBridge.Controllers.ItemController.GetItems">
+            <summary>
+            Gets all the items from the inventory
+            </summary>
+            <returns>list of inventory items</returns>
+        </member>
+        <member name="M:ShopBridge.Controllers.ItemController.AddItem(ShopBridge.Controllers.Resources.ItemResource)">
+            <summary>
+            Adds an item to the inventory
+            </summary>
+            <param name="itemResource">item object with its Name, Description, Price</param>
+            <returns>id of the item added</returns>
+        </member>
+        <member name="M:ShopBridge.Controllers.ItemController.EditItem(System.Int32,ShopBridge.Controllers.Resources.ItemResource)">
+            <summary>
+            Edit/update an item of the inventory
+            </summary>
+            <param name="id">id of the item to be edited/updated</param>
+            <param name="itemResource">item object with its Name, Description, Price</param>
+            <returns>id of the item</returns>
+        </member>
+        <member name="M:ShopBridge.Controllers.ItemController.DeleteItem(System.Int32)">
+            <summary>
+            Delete an item from the inventory
+            </summary>
+            <param name="id">id of the item to be deleted</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
