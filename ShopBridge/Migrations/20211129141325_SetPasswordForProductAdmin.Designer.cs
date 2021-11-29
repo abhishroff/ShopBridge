@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ShopBridge.Persistence;
 
 namespace ShopBridge.Migrations
 {
     [DbContext(typeof(ShopBridgeDbContext))]
-    partial class ShopBridgeDbContextModelSnapshot : ModelSnapshot
+    [Migration("20211129141325_SetPasswordForProductAdmin")]
+    partial class SetPasswordForProductAdmin
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

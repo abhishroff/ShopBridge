@@ -17,7 +17,7 @@ namespace ShopBridgeTest
 {
     public class ItemControllerTest
     {
-        ItemController _itemController;
+        //ItemController _itemController;
         private readonly Mock<IItemRepository> itemRepo;
         private readonly IMapper mapper;
         private readonly IUnitOfWork unitOfWork;

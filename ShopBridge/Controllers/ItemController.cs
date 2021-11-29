@@ -33,10 +33,10 @@ namespace ShopBridge.Controllers
             this.userDetails = userDetails;
         }
         
-        public ItemController()
-        {
+        //public ItemController()
+        //{
 
-        }
+        //}
         /// <summary>
         /// Gets all the items from the inventory
         /// </summary>
